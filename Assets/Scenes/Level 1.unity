@@ -349,6 +349,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ddf157d17221fe459327b14795e00c0, type: 3}
+--- !u!1 &1793621980 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4042194691463301955, guid: 003347549953e2c4fbb178a323879665,
+    type: 3}
+  m_PrefabInstance: {fileID: 4042194690819994783}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1793621981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1793621980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72efb9e0cf1734f0988c6069f6220681, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthPoints: 1
+  respawnHealthPoints: 1
+  numberOfLives: 1
+  isAlive: 1
+  explosionPrefab: {fileID: 0}
+  onLivesGone: 0
+  LevelToLoad: Level 1
 --- !u!4 &1794106364 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4042194691463337827, guid: 003347549953e2c4fbb178a323879665,
