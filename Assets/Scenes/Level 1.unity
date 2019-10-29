@@ -565,6 +565,16 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 1794106364}
+    - target: {fileID: 1534234176233037026, guid: 25b10fa0dc0573e4d81e10c6428a349d,
+        type: 3}
+      propertyPath: rotationDamping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1534234176233037026, guid: 25b10fa0dc0573e4d81e10c6428a349d,
+        type: 3}
+      propertyPath: heightDamping
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25b10fa0dc0573e4d81e10c6428a349d, type: 3}
 --- !u!1001 &4042194690819994783
@@ -703,5 +713,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8045196406628232291, guid: 0ddf157d17221fe459327b14795e00c0,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 9f93f63d068b08c459038c40fce897d8,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ddf157d17221fe459327b14795e00c0, type: 3}
