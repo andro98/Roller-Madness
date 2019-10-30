@@ -144,9 +144,10 @@ MonoBehaviour:
   damageOnCollision: 1
   continuousDamage: 0
   continuousTimeBetweenHits: 0
-  destroySelfOnImpact: 0
+  destroySelfOnImpact: 1
   delayBeforeDestroy: 0
-  explosionPrefab: {fileID: 0}
+  explosionPrefab: {fileID: 1937424805652993195, guid: f59fbdb5e19ae44479cbfccff2338676,
+    type: 3}
 --- !u!114 &2323907384948516758
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -163,6 +164,7 @@ MonoBehaviour:
   respawnHealthPoints: 1
   numberOfLives: 1
   isAlive: 1
-  explosionPrefab: {fileID: 0}
+  explosionPrefab: {fileID: 1937424805652993195, guid: f59fbdb5e19ae44479cbfccff2338676,
+    type: 3}
   onLivesGone: 1
   LevelToLoad: 
